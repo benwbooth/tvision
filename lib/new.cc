@@ -166,7 +166,7 @@ void * operator new[] ( size_t sz ) throw()
    return allocBlock(sz);
 }
 
-void * operator new ( size_t sz ) throw()
+void * operator new ( size_t sz ) throw(std::bad_alloc)
 {
    return allocBlock(sz);
 }

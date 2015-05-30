@@ -1,103 +1,104 @@
+/* config.h.  Generated from config.h.in by configure.  */
 /* config.h.in.  Generated from configure.ac by autoheader.  */
 /* The package name. */
-#undef PACKAGE
+#define PACKAGE "tvision"
 
 /* The package version. */
-#undef VERSION
+#define VERSION "0.8"
 
 /* Define this to enable the Russian character set. */
-#undef ENABLE_RUSSIAN_CHARSET
+/* #undef ENABLE_RUSSIAN_CHARSET */
 
 /* Define this to disable the alterate character set. */
-#undef DISABLE_ACS
+/* #undef DISABLE_ACS */
 
 /* Define this to disable the 8 bit output. */
-#undef DISABLE_8BIT_CHARS
+/* #undef DISABLE_8BIT_CHARS */
 
 /* Define to enable the Linux GPM mouse support. */
-#undef ENABLE_GPM
+#define ENABLE_GPM 1
 
 /* Define to enable the Linux VCS support. */
-#undef ENABLE_VCS
+#define ENABLE_VCS 1
 
 /* Define to enable the FreeBSD mouse support. */
-#undef ENABLE_FBSDM
+/* #undef ENABLE_FBSDM */
 
 /* Define to 1 if you have the <curses.h> header file. */
-#undef HAVE_CURSES_H
+#define HAVE_CURSES_H 1
 
 /* Define to 1 if you have the <dlfcn.h> header file. */
-#undef HAVE_DLFCN_H
+#define HAVE_DLFCN_H 1
 
 /* Define to 1 if you have the <gpm.h> header file. */
-#undef HAVE_GPM_H
+#define HAVE_GPM_H 1
 
 /* Define to 1 if you have the <inttypes.h> header file. */
-#undef HAVE_INTTYPES_H
+#define HAVE_INTTYPES_H 1
 
 /* Define to 1 if you have the `curses' library (-lcurses). */
-#undef HAVE_LIBCURSES
+/* #undef HAVE_LIBCURSES */
 
 /* Define to 1 if you have the `gpm' library (-lgpm). */
-#undef HAVE_LIBGPM
+#define HAVE_LIBGPM 1
 
 /* Define to 1 if you have the `ncurses' library (-lncurses). */
-#undef HAVE_LIBNCURSES
+#define HAVE_LIBNCURSES 1
 
 /* Define to 1 if you have the <memory.h> header file. */
-#undef HAVE_MEMORY_H
+#define HAVE_MEMORY_H 1
 
 /* Define to 1 if you have the <ncurses.h> header file. */
-#undef HAVE_NCURSES_H
+#define HAVE_NCURSES_H 1
 
 /* Define to 1 if you have the <stdint.h> header file. */
-#undef HAVE_STDINT_H
+#define HAVE_STDINT_H 1
 
 /* Define to 1 if you have the <stdlib.h> header file. */
-#undef HAVE_STDLIB_H
+#define HAVE_STDLIB_H 1
 
 /* Define to 1 if you have the <strings.h> header file. */
-#undef HAVE_STRINGS_H
+#define HAVE_STRINGS_H 1
 
 /* Define to 1 if you have the <string.h> header file. */
-#undef HAVE_STRING_H
+#define HAVE_STRING_H 1
 
 /* Define to 1 if you have the <sys/stat.h> header file. */
-#undef HAVE_SYS_STAT_H
+#define HAVE_SYS_STAT_H 1
 
 /* Define to 1 if you have the <sys/types.h> header file. */
-#undef HAVE_SYS_TYPES_H
+#define HAVE_SYS_TYPES_H 1
 
 /* Define to 1 if you have the <unistd.h> header file. */
-#undef HAVE_UNISTD_H
+#define HAVE_UNISTD_H 1
 
 /* Define to the sub-directory in which libtool stores uninstalled libraries.
    */
-#undef LT_OBJDIR
+#define LT_OBJDIR ".libs/"
 
 /* Name of package */
-#undef PACKAGE
+#define PACKAGE "tvision"
 
 /* Define to the address where bug reports for this package should be sent. */
-#undef PACKAGE_BUGREPORT
+#define PACKAGE_BUGREPORT ""
 
 /* Define to the full name of this package. */
-#undef PACKAGE_NAME
+#define PACKAGE_NAME "tvision"
 
 /* Define to the full name and version of this package. */
-#undef PACKAGE_STRING
+#define PACKAGE_STRING "tvision 0.8"
 
 /* Define to the one symbol short name of this package. */
-#undef PACKAGE_TARNAME
+#define PACKAGE_TARNAME "tvision"
 
 /* Define to the home page for this package. */
-#undef PACKAGE_URL
+#define PACKAGE_URL ""
 
 /* Define to the version of this package. */
-#undef PACKAGE_VERSION
+#define PACKAGE_VERSION "0.8"
 
 /* Define to 1 if you have the ANSI C header files. */
-#undef STDC_HEADERS
+#define STDC_HEADERS 1
 
 /* Version number of package */
-#undef VERSION
+#define VERSION "0.8"

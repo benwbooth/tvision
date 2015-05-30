@@ -1,6 +1,10 @@
 dnl Process this file with `autoconf' to produce a configure script.
-AC_INIT(lib/tv.h)
-AM_INIT_AUTOMAKE(tvision, 0.8)
+#AC_INIT(lib/tv.h)
+#AM_INIT_AUTOMAKE(tvision, 0.8)
+AC_INIT([tvision], [0.8])
+AC_CONFIG_SRCDIR([lib/tv.h])
+AM_INIT_AUTOMAKE
+
 AM_CONFIG_HEADER(config.h)
 AC_CONFIG_MACRO_DIR([m4])
 
@@ -27,6 +31,7 @@ dnl AC_CHECK_LIB(mytinfo, ???)
 dnl Checks for dynamic libraries.
 dnl AM_PROG_RANLIB
 AM_PROG_LIBTOOL
+AC_PROG_RANLIB
 
 dnl Various enable/disable checks.
 
