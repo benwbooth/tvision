@@ -1,7 +1,8 @@
 AUTOMAKE_OPTIONS = foreign
 ACLOCAL_AMFLAGS = -I m4
 
-SUBDIRS = doc lib demo tutorial tvhc
+#SUBDIRS = doc src demo tutorial tvhc
+SUBDIRS = lib demo tutorial doc tvhc
 
 CLEANFILES = *~
 
